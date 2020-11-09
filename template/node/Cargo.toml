@@ -39,7 +39,7 @@ sc-consensus-manual-seal = { git = "https://github.com/paritytech/substrate.git"
 sp-consensus = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
 sc-consensus = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
 sp-timestamp = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-pallet-evm = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
+pallet-evm = { git = "https://github.com/joshorndorff/pallet-evm.git", branch = "master" }
 pallet-ethereum = { path = "../../frame/ethereum" }
 sc-finality-grandpa = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
 sp-finality-grandpa = { git = "https://github.com/paritytech/substrate.git", branch = "master" }

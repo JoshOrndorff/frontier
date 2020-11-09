@@ -9,7 +9,7 @@ license = "GPL-3.0"
 [dependencies]
 sp-core = { version = "2.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
 sp-api = { version = "2.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-evm = { version = "0.8.0", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
+sp-evm = { version = "0.8.0", default-features = false, git = "https://github.com/joshorndorff/pallet-evm.git", branch = "master" }
 ethereum = { version = "0.4", default-features = false, features = ["with-codec"] }
 ethereum-types = { version = "0.9", default-features = false }
 codec = { package = "parity-scale-codec", version = "1.0.0", default-features = false }

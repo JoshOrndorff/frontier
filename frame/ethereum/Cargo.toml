@@ -14,11 +14,11 @@ frame-support = { version = "2.0.0-dev", default-features = false, git = "https:
 frame-system = { version = "2.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
 pallet-balances = { version = "2.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
 pallet-timestamp = { version = "2.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-pallet-evm = { version = "2.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
+pallet-evm = { default-features = false, git = "https://github.com/joshorndorff/pallet-evm.git", branch = "master" }
 sp-runtime = { version = "2.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
 sp-std = { version = "2.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
 sp-io = { version = "2.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-evm = { version = "0.8.0", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
+sp-evm = { version = "0.8.0", default-features = false, git = "https://github.com/joshorndorff/pallet-evm.git", branch = "master" }
 evm = { version = "0.18.0", features = ["with-codec"], default-features = false }
 ethereum = { version = "0.4", default-features = false, features = ["with-codec"] }
 ethereum-types = { version = "0.9", default-features = false }
